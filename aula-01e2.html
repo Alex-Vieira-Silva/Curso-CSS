@@ -12,10 +12,13 @@
         background-color: #c0c0c0;
     }
 
+
     #topo{
-        width: 100%;
+        width: 96%;
         height: 60px;
         background-color: #FFF059;
+        padding-top: 20px;
+        padding-left: 4% ;
     }
 
     #banner{
@@ -29,7 +32,7 @@
         width: 100%;
         height: 50px;
         background-color: #f9f9f9 ;
-        padding-left: 30px;
+        padding-left: 80px;
         font-size: 16px;
         font-weight: bold;
         line-height: 50px
@@ -53,6 +56,54 @@
 
     }
 
+    #logo{
+        width: 20%;
+        height: 50px;
+        float: left;
+    }
+
+    #logo-imagem{
+        width: 50%;
+        height: 95%;
+        background-size: 100%;
+    }
+
+    #busca{
+        width: 35%;
+        height: 50px;
+        /*border: solid 1px #000000;*/
+        float: left;
+    }
+
+    #menu-topo{
+        width: 25%;
+        height: 50px;
+        /*border: solid 1px #000000;*/
+        margin-right: 10%;
+        float: right;
+        line-height: 50px;
+        
+    }
+
+    #menu-topo a{
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    #pesquisar{
+        background: url("imagens/busca.png");
+        background-repeat: no-repeat;
+        background-position: left;
+        background-color: #ffffff;
+        font-size: 20px;
+        width: 60%;
+        height: 80%;
+        padding-left: 6%;
+        border: none;
+    }
+
+
+
 </style>
 <html lang="pt-br">
 
@@ -65,7 +116,25 @@
 <body>
     <div id="main">
         <div id="topo">
-             fdfdfdfdfdfdfd
+
+             <div id="logo">
+                 <a href="#">
+                 <img id="logo-imagem" src="https://http2.mlstatic.com/frontend-assets/ui-navigation/5.10.4/mercadolibre/logo-pt__large_plus.png">
+                </a>
+             </div>
+
+             <div id="busca">
+                 <input type="text" id="pesquisar" placeholder="Digite sua busca">
+
+             </div>
+
+             <div id="menu-topo">
+                 <a href="#">Home</a> &nbsp;
+                 <a href="#">Meus Produtos</a> &nbsp;
+                 <a href="#">Minha Conta</a>
+
+             </div>
+
         </div>
 
         <div id="banner">
