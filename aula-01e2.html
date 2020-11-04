@@ -21,19 +21,24 @@
         padding-left: 4% ;
     }
 
-    #banner{
+    .banner{
         width: 100%;
         height: 360px;
         background-size: 100%;
+        
     
     }
 
-    #pagamentos{
-        width: 100%;
+    .pagamentos{
+        width: 95,5%;
         height: 50px;
-        background-color: #f9f9f9 ;
+        background-color: #f8f6f6e3 ;
         padding-left: 80px;
-        font-size: 16px;
+        padding-top: 2px;
+        font-family: Arial;
+        font-size: 20px;
+        font-weight: 400px;
+       
         font-weight: bold;
         line-height: 50px
     
@@ -41,7 +46,7 @@
 
     #rodape{
         width: 100%;
-        height: 50px;
+        height: 60px;
         background-color: #000000;
         color: #ffffff;
         text-align: center;
@@ -50,9 +55,11 @@
     }
 
     #info{
-        width: 100%;
-        height: 400px;
-        background-color: #FFF059;
+        width: 88%;
+        height: 420px;
+        padding-left: 12%;
+        padding-top: 20px;
+        background-color: #ffffff;
 
     }
 
@@ -102,6 +109,34 @@
         border: none;
     }
 
+    .container-info{
+        font-family: Arial;
+        font-size: 20px;
+        text-align: center;
+        background-color: #ffffff;
+        width: 25%;
+        height: 250px;
+        margin: 30px 30px;
+        float: left;
+        margin-top: 20px;
+    }
+
+    .h1{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #4b4b4b;
+    margin: 16px 0 0 ;
+    }
+
+    #formatando-p{
+    color: #999;
+    font-size: 15px;
+    margin: 4px 0 10px;
+    line-height: 1.2;
+    }
+
+
 
 
 </style>
@@ -137,18 +172,51 @@
 
         </div>
 
-        <div id="banner">
+        <div class="banner">
 
-          <img id="banner" src="https://http2.mlstatic.com/optimize/o:f_webp/resources/deals/exhibitors_resources/mlb-home-desktop-slider-picture-a06e5abc-ec21-4973-b89b-47db445de545.jpg">
+          <img class="banner" src="https://http2.mlstatic.com/optimize/o:f_webp/resources/deals/exhibitors_resources/mlb-home-desktop-slider-picture-a06e5abc-ec21-4973-b89b-47db445de545.jpg">
 
         </div>
 
-        <div id="pagamentos">
-            Pague parcelado!
+        <div class="pagamentos">
+            <h1 class="h1">Pague parcelado!</h1>
+           
         </div>
 
         <div id="info">
-            GGGGGGG
+
+            <div class="container-info">
+                <img src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/ecosystem/payment.svg">
+                <br/><br/>
+                <h1 class="h1">Pague com cartão de crédito ou <br/> boleto</h1> 
+                <p id="formatando-p"> 
+                    Com o Mercado Pago você paga parcelado sem juros ou à vista no boleto. É sempre seguro!
+                    <span></span>
+                </p>
+            </div>
+
+            <div class="container-info">
+                <img src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/ecosystem/shipping.svg">
+                <br/><br/>
+                <h1 class="h1">Frete grátis a partir de R$ 99</h1>
+                <p id="formatando-p">
+                    Só por estar cadastrado no Mercado Livre, você tem frete grátis em milhares de produtos. É um benefício do Mercado Pontos.
+                    <span></span>
+                </p>
+
+            </div>
+
+            <div class="container-info">
+                <img src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/ecosystem/protected.svg">
+                <br/><br/>
+                <h1 class="h1">Segurança, do início ao fim</h1>
+                <p id="formatando-p">
+                    Você não gostou do que comprou? Devolva! No Mercado Livre não há nada que você não possa fazer, porque você está sempre protegido.
+                    <span></span>
+                </p>
+
+            </div>
+
         </div>
 
         <div id="rodape">
